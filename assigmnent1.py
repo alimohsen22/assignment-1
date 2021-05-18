@@ -37,24 +37,3 @@ def scalar_function(x,y):
 def vector_function(x, y):
     vectors = np.vectorize(scalar_function, otypes = [float])
     return vectors    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
